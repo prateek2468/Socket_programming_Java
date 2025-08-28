@@ -56,9 +56,9 @@ Type into the client console, server will display it.
 
 ## 📖 Concepts Shown
 
-Java Networking APIs (ServerSocket, Socket, BufferedReader, InputStreamReader, PrintWriter).
-Blocking I/O and connection handling.
-Basics of client-server architecture.
+- Java Networking APIs (ServerSocket, Socket, BufferedReader, InputStreamReader, PrintWriter).
+- Blocking I/O and connection handling.
+- Basics of client-server architecture.
 
 ## 🔮 Possible Improvements
 
