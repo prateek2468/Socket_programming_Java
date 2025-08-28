@@ -54,28 +54,16 @@ Type into the client console, server will display it.
 
 (You can modify to send responses back as well).
 
-📖 Concepts Shown
+## 📖 Concepts Shown
 
 Java Networking APIs (ServerSocket, Socket, BufferedReader, InputStreamReader, PrintWriter).
-
 Blocking I/O and connection handling.
-
 Basics of client-server architecture.
 
-🔮 Possible Improvements
+## 🔮 Possible Improvements
 
-If you’d like to extend this into a more “complete” project, here are some ideas:
+-Support multiple clients (thread pool or NIO selectors).
+-Add a protocol (commands like LOGIN, MSG, QUIT).
+-Use heartbeats to detect disconnected clients.
+-Add logging (SLF4J + Logback) instead of System.out.println.
 
-Support multiple clients (thread pool or NIO selectors).
-
-Add a protocol (commands like LOGIN, MSG, QUIT).
-
-Implement a chat room with broadcast messages.
-
-Use heartbeats to detect disconnected clients.
-
-Add logging (SLF4J + Logback) instead of System.out.println.
-
-Persist message history (e.g., save to a file or database).
-
-Build a simple GUI client with JavaFX or Swing.
