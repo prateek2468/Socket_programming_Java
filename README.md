@@ -62,8 +62,8 @@ Basics of client-server architecture.
 
 ## 🔮 Possible Improvements
 
--Support multiple clients (thread pool or NIO selectors).
--Add a protocol (commands like LOGIN, MSG, QUIT).
--Use heartbeats to detect disconnected clients.
--Add logging (SLF4J + Logback) instead of System.out.println.
+- Support multiple clients (thread pool or NIO selectors).
+- Add a protocol (commands like LOGIN, MSG, QUIT).
+- Use heartbeats to detect disconnected clients.
+- Add logging (SLF4J + Logback) instead of System.out.println.
 
